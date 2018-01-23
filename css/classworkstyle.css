@@ -1,0 +1,75 @@
+header {
+    padding: 0px;
+    text-align: center;
+    background: yellowgreen;
+}
+
+.main_menu {
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    padding-top: 10px;
+    background: white;
+    border: 1px solid lightblue;
+    position: absolute;
+    background: lightcoral;
+}
+
+.main_menu ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 900px;
+
+}
+
+.main_menu ul li {
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.main_menu ul li a {
+    margin-right: 20px;
+    display: block;
+    line-height: 30px;
+
+}
+
+.leftsection {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+.expertise {
+    width: 50%;
+    height: 100%
+}
+
+footer {
+    margin-top: 25px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+/* .main_menu {
+    text-align: center;
+    background: orange;
+    height: 50px;
+    padding-top: 3px;
+
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+} */

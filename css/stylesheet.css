@@ -1,0 +1,101 @@
+.container{
+    width: 80%;
+    margin: 120px auto;
+}
+
+.div1{
+    float: left;
+    width: 98%;
+    height: 100px;
+    outline: 1px solid red;
+}
+
+.div2{
+    float: left;
+    width: 33%;
+    height: 100px;
+    outline: 1px solid olive;
+}
+
+.div3{
+    float: left;
+    width: 32%;
+    height: 100px;
+    outline: 1px solid rgb(23, 0, 128);
+
+}
+
+.div4{
+    float: left;
+    width: 33%;
+    height: 100px;
+    outline: 1px solid rgb(0, 128, 53);
+
+}
+
+.div5{
+    float: left;
+    width: 98%;
+    height: 100px;
+    outline: 1px solid blueviolet;
+}
+
+/* sample 02 */
+header {
+    padding: 0px;
+    text-align: center;
+    background: yellowgreen
+}
+
+nav {
+    text-align: center;
+    background: orange;
+    height: 50px;
+    padding-top: 3px;
+}
+
+ul li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+article {
+    padding: 5px;
+    border: dotted 3px red;
+    margin-top: 5px;
+    background: lightgreen;
+    /* width: 40% */
+}
+
+figure {
+    /* width: 40% */
+}
+
+aside {
+    padding: 5px;
+    border: double 5px purple;
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+    background: lightblue;
+}
+
+ol li{
+    text-align: left;
+}
+
+section {
+    padding: 5px;
+    margin-top: 5px;
+    border: dashed 2px green;
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.container{
+    width: 80%;
+    margin: 120px auto;
+}
+
+.div1{
+    float: left;
+    width: 98%;
+    height: 100px;
+    outline: 1px solid red;
+}
+
+.div2{
+    float: left;
+    width: 48%;
+    height: 300px;
+    outline: 1px solid olive;
+}
+
+.div3{
+    float: left;
+    width: 50%;
+    height: 150px;
+    outline: 1px solid rgb(23, 0, 128);
+
+}
+
+.div4{
+    float: left;
+    width: 50%;
+    height: 150px;
+    outline: 1px solid rgb(0, 128, 53);
+}
+
+.div5{
+    float: left;
+    width: 98%;
+    height: 100px;
+    outline: 1px solid blueviolet;
+}

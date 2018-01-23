@@ -1,0 +1,29 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-weight: bold;
+}
+
+strong{
+    text-shadow: 10px 10px 10px
+
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
+
+.writer{
+    font-size: 8;
+    font-style: italic;
+    color: red;
+}
+
+.content{
+    font-size: 14;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black; 
+
+}
