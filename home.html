@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>My First Bootstrap Page</title>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="Bootstrap walkthrough">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript, Bootstrap, Terence_Chan">
+        <meta name="author" content="Terence Chan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- fontawesome.jo -->
+        <script src="https://use.fontawesome.com/201f99b414.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip1"]').tooltip(); 
+            });
+        </script>
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <h1>COMWorks Software</h1>
+                <p>Innovation never stops</p>
+            </div>     
+            <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="#">COMWorks</a>
+                      </div>
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                      </ul>
+                      <div id="navbar" class="navbar-collapse collapse">
+                          <form class="navbar-form navbar-right">
+                            <div class="form-group">
+                                <input type="text", placeholder="Search" class="form-control"/>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                          </form>
+                      </div>
+                    </div>
+            </nav>
+
+            <div class="container-fluid">
+                <div class="row"> 
+                    <div class="col-xs-12 col-sm-6">
+                        <div style="padding: 10px 10px 10px 10px; float:left; width:80%">
+                                <form action="/action_page.php">
+                                    <div class="form-group">
+                                      <label for="email">Email address:</label>
+                                      <input type="email" class="form-control" id="email">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="pwd">Password:</label>
+                                      <input type="password" class="form-control" id="pwd">
+                                    </div>
+                                    <div class="checkbox">
+                                      <label><input type="checkbox"> Remember me</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Submit</button>
+                                  </form>
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <h1>
+                            About Myself
+                        </h1>
+                        <hr>
+                        <p>
+                                Terence has 18 years of experiences in telecom industry, specializing in consultative selling
+                                of software solutions in Greater China and Asia Pacific market. He has held various positions
+                                in business unit management, solutions strategy / management, solutions sales and business
+                                development. Currently, he is heading IoT, Analytics and Cloud solutions business 
+                                for Asia Pacific and Japan.
+                        </p>
+                    </div>
+
+                </div>
+                
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Rabbit</h2>
+
+                    <p>
+                            Terence has 18 years of experiences in telecom industry, specializing in consultative selling
+                            of software solutions in Greater China and Asia Pacific market. He has held various positions
+                            in business unit management, solutions strategy / management, solutions sales and business
+                            development. Currently, he is heading IoT, Analytics and Cloud solutions business 
+                            for Asia Pacific and Japan.
+                    </p>
+                    <img src="./images/rabbit.jpg" class="img-rounded" alt="dog">
+                    <p></p>
+                    <p>
+                        <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h2>Dog</h2>
+                    <p>
+                            Terence has 18 years of experiences in telecom industry, specializing in consultative selling
+                            of software solutions in Greater China and Asia Pacific market. He has held various positions
+                            in business unit management, solutions strategy / management, solutions sales and business
+                            development. Currently, he is heading IoT, Analytics and Cloud solutions business 
+                            for Asia Pacific and Japan.
+                    </p>
+                    <img src="./images/dog.jpg" class="img-circle" alt="dog">
+                    <p></p>
+                    <p>
+                            <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+ 
+                </div>
+
+                <div class="col-md-4">
+                    <h2>Tiger</h2>
+                    <p>
+                            Terence has 18 years of experiences in telecom industry, specializing in consultative selling
+                            of software solutions in Greater China and Asia Pacific market. He has held various positions
+                            in business unit management, solutions strategy / management, solutions sales and business
+                            development. Currently, he is heading IoT, Analytics and Cloud solutions business 
+                            for Asia Pacific and Japan.
+                    </p>
+                    <img src="./images/tiger.jpg" class="thumb-rounded" alt="dog">
+                    <p></p>
+                    <p>
+                            <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+                  </div>              
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-4 panel-default">
+                <h3 class="text-center">Operating Hours</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Monday to Thursday
+                            </td>
+                            <td>
+                                09:30 - 17:00 Hrs
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Friday
+                            </td>
+                            <td>
+                                11:00 - 15:00 Hrs
+                            </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                    Sat, Sun
+                                </td>
+                                <td>
+                                    Closed
+                                </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://goo.gl/KUBB7L" class="responsive-embed"></iframe>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h3>Check Me Out</h3>
+                <br>
+                <div class="list-group">
+                    <a href="#" class="list-group-item"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>  terence.sn.chan@gmail.com</a>
+                    <a href="#" class="list-group-item"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>  +65 9023 5770</a>
+                    <a href="#" class="list-group-item"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i>  t.me/terence</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+                <div class="col-xs-12 text-center">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com" data-toggle="tooltip1" title="Hooray Facebook!">
+                                    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="https://www.google.com" data-toggle="tooltip1" title="Hooray Google!">
+                                    <i class="fa fa-google fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="https://www.linkedin.com">
+                                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="https://www.instagram.com">
+                                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+
+        <footer>
+            Copyright &copy; 2018 COMWorks Pte Ltd.
+        </footer>
+
+
+<!--         <div class="row">
+            <div class="col-md-6">
+                test row 1 col 1
+            </div>
+            <div class="col-md-6">
+                test row 1 col 2
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                test row 2 col 1
+            </div>
+            <div class="col-md-4">
+                test row 2 col 2
+            </div>
+            <div class="col-md-4">
+                test row 2 col 3
+            </div>
+        </div> -->
+
+
+    </body>
+
+
+</html>
