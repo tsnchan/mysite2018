@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        
+
+    </head>
+    <body>
+
+        <script language="javascript" type="text/javascript">
+            // Javascript code here
+            document.write("<h1>Hello World !!!</h1>");
+
+            // variable declaration
+            var firstname = "frank";
+            var lastname = "tay";
+            var fullname = "";
+            var a = 10;
+            var b = 20;
+            var result = 0;
+
+            // steps or tasks to be carried out
+            function sumTwoValue() {
+                result = a + b;
+                alert("result of a + b: " + result);
+            }
+            function concatName() {
+                fullname = firstname + " " + lastname;
+                alert("fullname: " + fullname);
+            }
+            function computeSum() {
+                var first = document.getElementById("FirstNumber").value;
+                var second = document.getElementById("SecondNumber").value;
+
+                var f = parseInt(first);
+                var s = parseInt(second);
+
+                var rslt = sumValues(f, s);
+                alert(rslt);
+            }
+            function sumValues(a,b) {
+                var resultSum = a + b;
+                // alert(resultSum);
+                return resultSum;
+            }
+
+            // alert("result: " + result + "\n\r" + "fullname: " + fullname);
+
+            // console.log("Name:" + fullname);
+        </script>
+
+        Enter number One:
+        <input type="number" id="FirstNumber"/>
+        <br>
+        <br>
+        Enter number Two:
+        <input type="number" id="SecondNumber"/>
+        <br>
+        <br>
+        <br>
+        <input type="button" onclick="computeSum()" value="Sum Input Values"/>
+        <br>
+        <br>
+        <br>
+        <input type="button" onclick="sumTwoValue()" value="Sum Two Values"/>
+        <br>
+        <br>
+        <br>
+        <input type="button" onclick="concatName()" value="Show Full Name"/>
+
+    </body>
+</html>

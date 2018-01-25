@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+            <script lang="javascript" type="text/javascript">
+            function autoRefresh(t) {
+                setTimeout("location.reload(true);", t);
+            }
+            function redirectPage() {
+                window.location = "http://www.microsoft.com";
+            }
+            </script>
+
+    </head>
+    <!-- on loading the page, start the 5000 counter, which once counted full, will run the autorefresh java script -->
+    <!-- <body onload="javascript:autoRefresh(5000);"> -->
+    <body onload="javascript:redirectPage();">
+
+        <script lang="javascript" type="text/javascript">
+
+        var employee = {
+            name: "James",
+            email: "james@cook.com",
+            tel: "99999999"
+        }
+        
+        var employeelist = [
+            {
+                name : "James",
+                email : "james@cook.com",
+                tel : "99999999"            
+            },
+            {   
+                name : "Mark",
+                email : "mark@cook.com",
+                tel : "88888888"
+            },
+            {
+                name : "Lee",
+                email : "lee@cook.com",
+                tel : "77777777"
+            }
+        ]
+        document.write("size of employeelist: " + employeelist.length);
+
+        document.write("<br>");
+        document.write("<table border=2 width=80% align=center>");
+
+        document.write("<thead>");
+        document.write("<tr>");
+        document.write(("<th>") + employeelist.keys[0] + "</th>");
+        document.write(("<th>") + employeelist.keys[0] + "</th>");       
+        document.write(("<th>") + employeelist.keys[0] + "</th>");
+
+        for (var i = 0; i < employeelist.length; i++) {
+            document.write("<tr>");
+            document.write("<td>" + employeelist[i].name + "</td>");
+            document.write("<td>" + employeelist[i].email + "</td>");
+            document.write("<td>" + employeelist[i].tel + "</td>");
+            document.write("</tr>");
+        }
+        docuemnt.write("</table>");
+
+
+
+        </script>
+
+    <a href="javascript:location.reload(true)">Refresh Page</a>
+
+    </body>
+</html>
