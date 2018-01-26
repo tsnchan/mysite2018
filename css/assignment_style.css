@@ -8,8 +8,8 @@
 .bg-2 {
     background-color: darkgray;
     color: white;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .bg-3 {
@@ -43,3 +43,41 @@
     text-align: justify;
     font-size: 20px;
 }
+
+.bg-grey {
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn btn.info {
+    background-color: darkblue;
+    color: white;
+}
+
+.myfooter {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Carousel_img {
+    margin: auto;
+}
+
+.item active {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-caption {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .Carousel slide {
+    margin: auto;
+} */
+
